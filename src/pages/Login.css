@@ -1,0 +1,116 @@
+/* Background with pet image */
+.login-container {
+  background-image: url('https://images.unsplash.com/photo-1570377130082-8f79c075791b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1625344109870-987b53893df9?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  min-height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form styling */
+.login-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #5e35b1;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #7e57c2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #ab47bc;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #5e35b1;
+  text-decoration: none;
+}
+
+.social-login {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.google-btn,
+.facebook-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.google-btn {
+  background-color: #db4437;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signup-button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}

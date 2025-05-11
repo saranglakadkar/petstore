@@ -1,0 +1,38 @@
+.home-container {
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 80px 20px;
+}
+
+.feature-card {
+  border: 1px solid #7e57c2; /* Light purple border */
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05); /* Slight zoom */
+}
+
+.text-section h1 {
+  color: #3c3c3c; /* Dark gray text */
+}
+
+.text-section h2 {
+  color: #7e57c2; /* Purple color */
+}
+
+.text-section p {
+  color: #555; /* Slightly lighter gray */
+}
+
+.btn-success {
+  background-color: #7e57c2;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+
+.btn-success:hover {
+  background-color: #6a1b9a; /* Darker purple on hover */
+}

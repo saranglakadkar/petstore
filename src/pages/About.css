@@ -1,0 +1,23 @@
+.about-container {
+  background-color: #fff7f0;
+  padding: 60px 30px;
+  border-radius: 12px;
+}
+
+.team-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-img {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

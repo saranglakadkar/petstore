@@ -1,0 +1,81 @@
+/* Custom styles for product cards */
+.product-card {
+  border: 2px solid #28a745; /* Green border */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Stronger shadow effect */
+}
+
+/* Card image styles */
+.product-card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #28a745;
+  border-radius: 12px 12px 0 0; /* Rounded corners for image */
+}
+
+/* Card body and button styles */
+.product-card .card-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 0 0 12px 12px; /* Rounded bottom corners */
+}
+
+.product-card .card-title {
+  font-size: 1.3rem; /* Slightly larger title */
+  color: #28a745;
+  font-weight: 600; /* Medium bold font weight */
+}
+
+.product-card .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 15px; /* Added space between text and button */
+}
+
+.product-card button {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer; /* Added cursor for a more interactive feel */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+/* Adjust the bottom margin of the product section to prevent footer overlap */
+.container {
+  margin-bottom: 60px; /* Slightly larger space to prevent footer overlap */
+}
+
+/* Responsive design */
+@media (max-width: 767px) {
+  .product-card {
+    margin-bottom: 25px;
+  }
+  .container {
+    margin-bottom: 30px; /* Reduced margin for mobile */
+  }
+  .product-card .card-title {
+    font-size: 1.15rem; /* Adjusted title size for mobile */
+  }
+  .product-card button {
+    font-size: 1rem; /* Slightly smaller button text for mobile */
+    padding: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  padding: 40px 0 20px;
+}
+
+.footer h5 {
+  color: #ffeaa7;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffeaa7;
+}
