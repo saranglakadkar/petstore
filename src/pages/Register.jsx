@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Register.css';  // Make sure to style your form accordingly
+import './Register.css'; 
 
 function Register() {
   const [username, setUsername] = useState('');

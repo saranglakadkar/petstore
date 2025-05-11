@@ -9,7 +9,7 @@ import Login from './pages/Login';
 import Footer from './components/Footer';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Register from './pages/register';
+import Register from './pages/Register';
 
 
 function App() {
